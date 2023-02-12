@@ -6,7 +6,7 @@ terraform {
       source = "hashicorp/azurerm"
       version = ">= 2.0" # Optional but recommended in production
     }    
-  }p
+  }
 }
 
 # Configure the Microsoft Azure Provider

@@ -15,10 +15,10 @@ terraform {
 # Provider Block
 provider "azurerm" {
   version = ">= 2.0"
-  subscription_id = 8e0df800-83c9-4bfb-940f-c2ec4b401a60,
-  client_id       = d04f97dd-4e4c-4e65-bf99-6419dfb9ac54,
-  client_secret   = "8c08Q~7h3_99h9~rUNR.VUbUqhOv4VeXdNAKJcAe",
-  tenant_id       = d04f97dd-4e4c-4e65-bf99-6419dfb9ac54
+  subscription_id = "8e0df800-83c9-4bfb-940f-c2ec4b401a60"
+  client_id       = "d04f97dd-4e4c-4e65-bf99-6419dfb9ac54"
+  client_secret   = "8c08Q~7h3_99h9~rUNR.VUbUqhOv4VeXdNAKJcAe"
+  tenant_id       = "d04f97dd-4e4c-4e65-bf99-6419dfb9ac54"
 features {}
 }
 

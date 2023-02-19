@@ -8,12 +8,12 @@ resource "azurerm_virtual_network" "myvnet" {
     "Name" = "VNET-1"
     "Environment" = "Dev1"
   }
-/*
+
   # Lifecycle Changes
   lifecycle {
     ignore_changes = [ tags, ]
   }
-*/
+
 }
 /*
 # Ignore changes to tags, e.g. because a management agent

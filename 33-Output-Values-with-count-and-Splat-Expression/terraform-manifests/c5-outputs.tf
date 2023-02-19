@@ -15,7 +15,7 @@ output "virtual_network_name" {
   description = "Virutal Network Name"
   #value = azurerm_virtual_network.myvnet.name 
   value = azurerm_virtual_network.myvnet[*].name 
-  #sensitive = true
+  sensitive = true
 }
 
 

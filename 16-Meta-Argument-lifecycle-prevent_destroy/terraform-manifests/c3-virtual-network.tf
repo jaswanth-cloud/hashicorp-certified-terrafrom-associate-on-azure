@@ -9,7 +9,7 @@ resource "azurerm_virtual_network" "myvnet" {
 # Lifecycle Changes
 /*  lifecycle {
     prevent_destroy = true
-  }/*
+  }/**/
 }
 
 /*

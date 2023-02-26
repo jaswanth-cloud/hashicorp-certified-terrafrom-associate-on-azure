@@ -3,7 +3,7 @@
 # terraform import azurerm_resource_group.myrg /subscriptions/068b334d-5f61-48ea-879b-5a0e11d97110/resourceGroups/myrg1
 
 
-
+/*
 # Resource Group
 resource "azurerm_resource_group" "myrg" {
    name = "myrg1"
@@ -12,5 +12,6 @@ resource "azurerm_resource_group" "myrg" {
      "Tag1" = "My-Tag-1"
    }
 }
+*/
 
 

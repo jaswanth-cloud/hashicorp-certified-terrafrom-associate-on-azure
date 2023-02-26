@@ -15,3 +15,7 @@ resource "azurerm_resource_group" "myrg" {
 */
 
 
+resource "azurerm_resource_group" "myrg" {
+   name = "myrg1"
+   location = "eastus"
+}
